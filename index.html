@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Verenice Caballero - Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="css/my-styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                   <link rel="stylesheet" href="css/my-styles.css">
+       <style>  
+        html,body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat";}
+        </style> 
+    
+    
+    </head>
+    <body>
+       <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-white w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="index.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="gallery.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Gallery</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About Me</a>
+    <a href="resume.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Resume</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+        <div>
+              <!--w3-container adds 16 pixels of padding 
+                around each element; w3-green makes the background green -->   
+                <header class="w3-container w3-orange">  <!--w3-container adds 16 pixels of padding 
+                around each element; w3-green makes the background green -->
+                <h1>Verenice Caballero - Portfolio</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+ 
+            <div class="w3-container">
+                <h1>Artwork Gallery</h1>
+            </div>
+            
+            <section class="w3-container ">
+                <p>Welcome to my gallery, below are my design!</p>
+            </section>
+                
+
+            <section class="w3-row-padding row-color-1"> <!-- The w3-row-padding class adds 8 pixels of padding around each element.  -->
+                
+                <article class="w3-col s12 m4 l4">
+                    <h4><a title="stamp-dpi">Stamp Design</a></h4>
+                    <p><a href="assets/stamp-72dpi.jpg"><img src="assets/stamp-72dpi.jpg" alt="stamp-72dpi"></a></p>
+                </article>
+                <article class="w3-col s12 m4 l4">
+                    <h4><a title="printmag-72dpi">Print Magazine</a></h4>
+                    <p><a href="assets/printmag-72dpi.jpg"><img src="assets/printmag-72dpi.jpg" alt="printmag-72dpi"></a></p>
+                </article>
+                <article class="w3-col s12 m4 l4">
+                    <h4><a title="butterfly-72dpi">Butterfly Flyer Design</a></h4>
+                    <p><a href="assets/butterfly-72dpi.jpg"><img src="assets/butterfly-72dpi.jpg" alt="stamp-72dpi"></a></p>
+                </article>
+            </section>
+
+            <footer class="w3-container w3-orange w3-center w3-margin-top">
+            <p>Find me on social media.</p>
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+            <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+        </footer>
+
+        
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
